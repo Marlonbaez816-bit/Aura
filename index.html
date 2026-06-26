@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura - El Ecosistema Infinito</title>
+    <!-- Tailwind para el diseño morado y moderno -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body { font-family: 'Outfit', sans-serif; background-color: #F8F7FF; overflow: hidden; }
+        .glass { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(15px); border: 1px solid rgba(255,255,255,0.2); }
+        .rounded-aura { border-radius: 3rem; }
+        .onda-card { border-radius: 2rem; transition: all 0.4s ease; }
+        .onda-card:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(138, 43, 226, 0.1); }
+        /* Scrollbar personalizada morada */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-thumb { background: #D8B4FE; border-radius: 10px; }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+
+    <!-- Librerías de React para que funcionen en el navegador -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- Tu archivo de lógica -->
+    <script type="text/babel" src="app.js"></script>
+</body>
+      </html>
